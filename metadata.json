@@ -1,0 +1,5 @@
+{
+  "name": "Reading Quiz Generator",
+  "description": "Upload pages from a reading assignment to generate and take a 10-question quiz. Get your results instantly.",
+  "requestFramePermissions": []
+}
