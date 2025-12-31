@@ -1,6 +1,8 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { QuizQuestion } from "../types";
 
+console.log("Gemini API key present:", !!import.meta.env.VITE_GEMINI_API_KEY);
+
 /* =======================
    Shared API key handling
    ======================= */
