@@ -4,7 +4,7 @@ import SubmissionForm from './components/SubmissionForm';
 import Quiz from './components/Quiz';
 import Results from './components/Results';
 import { LoadingSpinner } from './components/Icons';
-import { generateQuiz, gradeFillInTheBlank } from './services/geminiService';
+import { generateQuiz, gradeFillInTheBlank } from './geminiService';
 
 const fileToBase64 = (file: File): Promise<string> => {
   return new Promise((resolve, reject) => {
