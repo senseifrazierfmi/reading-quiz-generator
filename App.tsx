@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { AppState, StudentInfo, QuizQuestion, QuizResult, QuestionType } from './types';
-import SubmissionForm from './components/SubmissionForm';
+import SubmissionForm from './SubmissionForm';
 import Quiz from './components/Quiz';
 import Results from './components/Results';
 import { LoadingSpinner } from './components/Icons';
